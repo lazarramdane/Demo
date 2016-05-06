@@ -3,7 +3,7 @@
 	"configurations": [
 		{
 			"name": "Launch",
-			"type": "mono",
+			"type": "node",
 			"request": "launch",
 			"program": "${workspaceRoot}/program.exe",
 			"args": [],
@@ -15,7 +15,7 @@
 		},
 		{
 			"name": "Attach",
-			"type": "mono",
+			"type": "node",
 			"request": "attach",
 			"address": "localhost",
 			"port": 55555
